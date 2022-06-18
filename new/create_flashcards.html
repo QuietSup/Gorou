@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bootstrap-grid.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script src="script.js" defer></script>
+  <title>Flashcards</title>
+</head>
+
+<style>
+  @media (max-width: 576px) {
+    .container{
+      width: 90%;
+    }
+  }
+</style>
+
+<body>
+
+<!--NAVIGATION-->
+<div class="container">
+  <nav class="navbar">
+    <a href="my_space.html" class="logo">
+      <div class="name">Gorou</div>
+    </a>
+    <div class="menu">
+      <a href="#" class="close"><img class="close" src="img/Vector.svg"></a>
+      <a href="my_space.html" class="menu_title">My space</a>
+      <a href="find.html" class="menu_title">Find set</a>
+      <a href="create_flashcards.html" class="menu_title current-page">Create set</a>
+      <div class="accounts">
+        <a href="#" class="account"><span class="menu_title">Hyunjin</span><img class="avatar" src="img/avatar.png" alt="account"></a>
+        <a href="account.html" class="account-link"><span class="menu_title">Hyunjin</span><img class="avatar" src="img/avatar.png" alt="account"></a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="content">
+<!--CONTENT-->
+<div class="container">
+  <div class="create-space">
+    <div class="enter-name">
+        <label class="title">Flashcards name</label>
+        <div class="input-name-space">
+          <input type="text" class="enter" value="">
+        </div>
+    </div>
+
+    <div class="new-term-space">
+      <div class="number-delete">
+        <span class="title">1</span>
+        <button><img src="img/delete.svg"></button>
+      </div>
+
+      <div class="term-definition">
+        <div>
+          <label class="title">Term</label>
+          <div class="input_space">
+            <input type="text" class="enter" value="Hyunjin">
+          </div>
+        </div>
+        <div>
+          <label class="title">Definition</label>
+          <div class="input_space">
+            <input type="text" class="enter" value="Hyunjin">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="add-space">
+      <button>
+        <img src="img/add.svg">
+        <span>Add flashcard</span>
+      </button>
+    </div>
+
+  </div>
+</div>
+
+</div>
+<!--FOOTER-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="foot">
+        <div class="info">
+          <span class="logo">Gorou</span>
+          <div class="terms">
+            <span>c 2021 Gorou, Inc</span>
+            <span>Terms & Privacy</span>
+          </div>
+        </div>
+        <div class="contacts">
+          <a href="#"><span>Twitter</span></a>
+          <a href="#"><span>Instagram</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
